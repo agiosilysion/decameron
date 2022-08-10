@@ -46,7 +46,7 @@
                             <div class="ml-12">
                                 
 
-                                <form id="form_registrar_hotel" action="http://127.0.0.1:3040/api/hoteles/registrar">
+                                <form id="form_registrar_hotel" action="http://161.35.113.192/api/hoteles/registrar">
                                     <div class="form-group mb-3">
                                         <label for="exampleInputEmail1">Nombre</label>
                                         <input type="text" class="form-control" name="nombre" placeholder="Ingresar nombre">
