@@ -66,7 +66,11 @@
 <script>
     $.ajax({
         type: 'GET',
+<<<<<<< HEAD
         url: 'http://161.35.113.192/api/hoteles',
+=======
+        url: '/api/hoteles',
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
         success: function(data)
         {
             const hoteles = data;
@@ -99,7 +103,11 @@
 
     function obtenerListadoHabitaciones(id) {
         var estandar_sencilla = '<div class="mt-4">Estándar sencilla</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_estandar_sencilla_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'estandar_sencilla\', this.value)">' +
@@ -107,7 +115,11 @@
             '</form></div>';
 
         var estandar_doble = '<div class="mt-4">Estándar doble</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_estandar_doble_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'estandar_doble\', this.value)">' +
@@ -115,7 +127,11 @@
             '</form></div>';
         
         var junior_triple = '<div class="mt-4">Junior triple</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_junior_triple_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'junior_triple\', this.value)">' +
@@ -123,7 +139,11 @@
             '</form></div>';
 
         var junior_cuadruple = '<div class="mt-4">Junior cuádruple</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_junior_cuadruple_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'junior_cuadruple\', this.value)">' +
@@ -131,7 +151,11 @@
             '</form></div>';
 
         var suite_sencilla = '<div class="mt-4">Suite sencilla</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_suite_sencilla_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'suite_sencilla\', this.value)">' +
@@ -139,7 +163,11 @@
             '</form></div>';
 
         var suite_doble = '<div class="mt-4">Suite doble</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_suite_doble_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'suite_doble\', this.value)">' +
@@ -147,7 +175,11 @@
             '</form></div>';
 
         var suite_triple = '<div class="mt-4">Suite triple</div>' +
+<<<<<<< HEAD
             '<div class="card card-body"><form id="form_registrar_habitacion" action="http://161.35.113.192/api/habitaciones/registrar">' +
+=======
+            '<div class="card card-body"><form id="form_registrar_habitacion" action="/api/habitaciones/registrar">' +
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             '<div class="form-group">' +
             '<label>Cantidad</label>' +
             '<input type="number" class="form-control" id="cantidad_suite_triple_' + id + '" name="cantidad" placeholder="Ingrese la cantidad" onfocusout="actualizarTiposHabitaciones(' + id + ', \'suite_triple\', this.value)">' +
@@ -164,7 +196,11 @@
 
         $.ajax({
             type: 'GET',
+<<<<<<< HEAD
             url: 'http://161.35.113.192/api/habitaciones',
+=======
+            url: '/api/habitaciones',
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             data: { hotel_id: id },
             success: function(data)
             {
@@ -234,7 +270,11 @@
 
         $.ajax({
             type: "PUT",
+<<<<<<< HEAD
             url: 'http://161.35.113.192/api/habitaciones/actualizar',
+=======
+            url: '/api/habitaciones/actualizar',
+>>>>>>> 6c947ba0127bfd581a5960839502324114b154cc
             data: { id: id, hotel_id: id, tipo_habitacion_id: tipo_habitacion_id, acomodacion_id: acomodacion_id, cantidad: cantidad },
             success: function(data)
             {
